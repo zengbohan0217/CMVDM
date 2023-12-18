@@ -1,8 +1,14 @@
 # Controllable Mind Visual Diffusion Model
 
 
+This paper has been accepted to AAAI 2024. [arxiv](https://arxiv.org/pdf/2305.10135.pdf)
+
+
 ## Abstract
 Brain signal visualization has emerged as an active research area, serving as a critical interface between the human visual system and computer vision models. Although diffusion models have shown promise in analyzing functional magnetic resonance imaging (fMRI) data, including reconstructing high-quality images consistent with original visual stimuli, their accuracy in extracting semantic and silhouette information from brain signals remains limited. In this regard, we propose a novel approach, referred to as Controllable Mind Visual Diffusion Model (CMVDM). CMVDM extracts semantic and silhouette information from fMRI data using attribute alignment and assistant networks. Additionally, a residual block is incorporated to capture information beyond semantic and silhouette features. We then leverage a control model to fully exploit the extracted information for image synthesis, resulting in generated images that closely resemble the visual stimuli in terms of semantics and silhouette. Through extensive experimentation, we demonstrate that CMVDM outperforms existing state-of-the-art methods both qualitatively and quantitatively.
+
+<!-- ![Framework](assets/framework.jpg) -->
+<div style="text-align:center"><img src="assets/framework.jpg" width="1000"></div>
 
 
 ## Overview
